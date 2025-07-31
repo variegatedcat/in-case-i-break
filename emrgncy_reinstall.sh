@@ -46,7 +46,7 @@ sudo pacman -S --noconfirm fastfetch vlc cava spotify-player pavucontrol ncdu op
 
 ## aur
 
-paru -Syu --noconfirm obs-studio-git stremio openrgb vscodium-bin librewolf-bin polychromatic openrazer-daemon gufw playerctl vesktop xfce4-battery-plugin xfce4-pulseaudio-plugin xfce4-whiskermenu-plugin
+paru -Syu --noconfirm obs-studio-git stremio openrgb-bin vscodium-bin librewolf-bin polychromatic openrazer-daemon gufw playerctl vesktop xfce4-battery-plugin xfce4-pulseaudio-plugin xfce4-whiskermenu-plugin
 
 
 ## theming aur
