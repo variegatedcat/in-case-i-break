@@ -1,0 +1,22 @@
+stuff you have to do manually:
+
+set "apparmor=1 security=apparmor" in kernel parameters
+
+
+enable ccache in /etc/makepkg.conf
+
+
+install steam and game stuff
+
+get ungoogled-chromium-bin if you need to use webhid and stuff
+
+
+if /home wasnt kept:
+
+otd should have 52 size in top left
+
+set up git
+
+theme everything (if you are me then clone https://github.com/variegatedcat/dots.git)
+
+set up librewolf
