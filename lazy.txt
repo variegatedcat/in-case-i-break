@@ -5,11 +5,11 @@ set "apparmor=1 security=apparmor" in kernel parameters
 
 enable ccache in /etc/makepkg.conf
 
-
-install steam and game stuff
+get the game stuff
 
 get ungoogled-chromium-bin if you need to use webhid and stuff
 
+set umask of 027 in /etc/login.defs
 
 if /home wasnt kept:
 

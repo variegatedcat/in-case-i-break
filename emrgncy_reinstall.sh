@@ -24,7 +24,7 @@ sudo pacman -S --noconfirm qt5ct qt6ct kvantum nwg-look
 
 
 #dev
-sudo pacman -S --noconfirm godot meld lazygit python
+sudo pacman -S --noconfirm meld lazygit python
 
 
 ## security
@@ -46,7 +46,7 @@ sudo pacman -S --noconfirm fastfetch vlc cava spotify-player pavucontrol ncdu op
 
 ## aur
 
-paru -Syu --noconfirm obs-studio-git stremio openrgb-bin vscodium-bin librewolf-bin polychromatic openrazer-daemon gufw playerctl vesktop xfce4-battery-plugin xfce4-pulseaudio-plugin xfce4-whiskermenu-plugin
+paru -Syu --noconfirm obs-studio-git stremio openrgb-bin vscodium-bin librewolf-bin polychromatic openrazer-daemon gufw playerctl vesktop xfce4-battery-plugin xfce4-pulseaudio-plugin xfce4-whiskermenu-plugin clamav-unofficial-sigs
 
 
 ## theming aur
@@ -56,6 +56,7 @@ paru -S --noconfirm tela-circle-icon-theme-pruple rose-pine-cursor
 
 
 ## wrapping up
+systemctl enable clamav-unofficial-sigs.timer
 sudo lynis audit system
 chsh -s /bin/zsh
 sudo systemctl disable systemd-networkd.service
