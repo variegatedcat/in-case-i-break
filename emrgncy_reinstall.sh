@@ -7,7 +7,7 @@ rm -rf paru
 
 ## utilities
 
-sudo pacman -S --noconfirm btop htop geany vim yazi reflector zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting zsh-theme-powerlevel10k fzf kitty NetworkManager ccache blueman libsecret
+sudo pacman -S --noconfirm btop htop geany vim yazi reflector zsh zsh-autosuggestions zsh-completions zsh-syntax-highlighting zsh-theme-powerlevel10k fzf kitty NetworkManager ccache blueman libsecret viewnior
 
 
 
